@@ -6,8 +6,11 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Flutter Dex')),
-      body: Center(child: Text('Hello FlutterDex')),
+      appBar: AppBar(
+        title: Text('Flutter Dex'),
+        backgroundColor: Colors.purple,
+      ),
+      body: Center(child: Text('Hello World')),
     );
   }
 }
